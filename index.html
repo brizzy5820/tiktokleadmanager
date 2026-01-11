@@ -3,19 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
-   <!-- TikTok Pixel Code Start -->
+<!-- Meta Pixel Code -->
 <script>
-!function (w, d, t) {
-  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
-var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
-;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-
-
-  ttq.load('D5DB153C77U40DIQKA0G');
-  ttq.page();
-}(window, document, 'ttq');
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1228265935858271');
+fbq('track', 'PageView');
 </script>
-<!-- TikTok Pixel Code End -->
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1228265935858271&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -101,7 +105,10 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
             font-size: 0.9rem;
             letter-spacing: 0.5px;
         }
-
+        nav h2{
+            font-size: 3rem!important;
+            color: #4a4646;
+        }
         .nav-btn:hover {
             transform: translateY(-2px);
             box-shadow: 0 10px 30px rgba(233, 30, 99, 0.5);
@@ -1189,7 +1196,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
             }
 
             .results {
-                font-size: 1rem;
+                font-size: 1.28rem;
                 margin: 1.5rem 0;
             }
 
@@ -1477,7 +1484,8 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
 
             .nav-btn {
                 padding: 0.6rem 1.3rem;
-                font-size: 0.8rem;
+                font-size: 0.69rem;
+                
             }
 
             .logo {
@@ -1492,7 +1500,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
         @media (max-width: 400px) {
             .nav-btn {
                 padding: 0.5rem 1rem;
-                font-size: 0.75rem;
+                font-size: 0.65rem;
             }
 
             .logo {
@@ -1513,27 +1521,27 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
 
 <nav>
         <div class="logo">TIKTOK LEAD </div>
-        <button class="nav-btn" onclick="scrollToCTA()">Register Now</button>
+        <button class="nav-btn" onclick="handleRegister()">Join Free Training</button>
     </nav>
 
     <section class="hero">
         <div class="badge"> Attention! Business Owners, Affiliate Marketers, Course Creators & Online Vendors</div>
         <h1>
-            TikTok Lead<br>
-            <span class="machine">Machine</span>
+           Finally<br>
+            <span class="machine">Revealed!</span>
         </h1>
+
+        <h2 class='results'> Tired of chasing leads or wasting money on ads that don’t convert</h2>
         <p class="subtitle">
-            How I Generated <span class="highlight">90,000+ Leads</span> and Turned Them Into <span
-                class="highlight">₦10M+ in Sales</span> Using TikTok Ads — Without Posting Daily.
+          Imagine waking up to messages from people already interested in what you sell —
+without spamming DMs or begging for attention.
+
+ Well… here’s your solution .
         </p>
-        <p class="results">
-            If you sell anything online and you're tired of posting, hoping, and guessing… This system is for you.
-        </p>
-        <div class="flier-container"> <img src="flier one.jpeg" alt=""></div>
+
         <div class="cta-container">
             <button class="cta-primary" style="display: flex; align-items: center;
-            justify-content: center;" onclick="handleRegister()"><i class="fa-solid fa-rocket"></i> Register
-                Now</button>
+            justify-content: center;" onclick="handleRegister()"><i class="fa-solid fa-rocket"></i>Join Free Training </button>
         </div>
         <div class="contact-info">
             <div class="contact-item">
@@ -1918,7 +1926,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
         </p>
         <button class="cta-primary" onclick="handleRegister()"
             style="margin-top: 2rem;  align-items: center; justify-content: center; text-align: center;">
-           <i class="fa-solid fa-rocket"></i> Register Now
+   <i class="fa-solid fa-rocket"></i>   Join Free Training
         </button>
         <div class="contact-info" style="margin-top: 3rem;">
             <div class="contact-item">
@@ -1977,11 +1985,11 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
 
         // Smooth scroll with offset
         function handleRegister() {
-            window.open('https://chat.whatsapp.com/H1QZxxy3hVrAmqUFTTGtH9', '_blank');
+            window.open('https://chat.whatsapp.com/GWlGp3RhmJuJX2ckCwfdir', '_blank');
         }
 
         function scrollToCTA() {
-            window.open('https://chat.whatsapp.com/H1QZxxy3hVrAmqUFTTGtH9', '_blank');
+            window.open('https://chat.whatsapp.com/GWlGp3RhmJuJX2ckCwfdir', '_blank');
         }
 
         // Enhanced scroll animations
